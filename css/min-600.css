@@ -1,0 +1,78 @@
+@media (min-width:600px){
+ .cards .card-img{
+   padding: 20px 50px;
+ }
+
+ .menu-card .our-menu{
+   margin: 0px auto;
+   width: 60%;
+ }
+
+ .part1{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+ }
+
+ .menu-card .more-part{
+   display: flex;
+   flex-direction: row  ;
+   gap: 20px;
+ }
+ .part-2{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+ }
+
+ .menu-card .more-part-2{
+   display: flex;
+   flex-direction: row  ;
+   gap: 20px;
+ }
+
+ .our-product .product-card{
+   margin: 0px auto;
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+  justify-content: space-between;
+ }
+ .our-product{
+   display: flex;
+   gap: 20px;
+ }
+
+.gallery-img .img-part1{
+   margin: 0px auto;
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+ }
+
+ .gallery-img .img-part2{
+   margin: 0px auto;
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+ }
+
+footer .contact-page {
+   padding-top: 20px;
+   width: 50%;
+   margin: 0px auto;
+
+ }
+
+ .blogs-card .blog-part{
+   margin: 0px auto;
+   width: 80%;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+ }
+    
+}
