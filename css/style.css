@@ -3,14 +3,23 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'merriweather' , serif;
+    
     }      
+    body{
+        padding: 10px 40px;
+
+    }
+
+    header{
+         width: 100%;
+    }
        
     
     header .all-content{
+        
         width: 100%;
-        background-color: #fff;
         display: flex;
-        justify-content: space-between  ;
+        justify-content: space-around  ;
         align-items: center;
         background-color: orange;
         padding: 5px 5px 5px 5px;
@@ -19,32 +28,34 @@
     
     .nav-logo img{
         border-radius: 10px;
-        width: 150px;
+        width: 250px;
     }
     
     .all-content .nav-link nav{
+        width: 100%;
         display: flex;
         flex-direction: column;
-       gap: 10px;
+        gap: 20px;
         
     }
     
     .all-content .nav-link nav a{
         text-decoration: none;
         color: black;       
-        
         font-weight: bold;
         transition: all 300ms;
         
     }
     
-    /* .nav-link nav a:hover{
+    .nav-link nav a:hover{
         color: black;
         background-color: #fff;
         border-radius: 5px;
         padding: 2px;
         
-    } */
+    }
+
+
     
     .all-content .nav-btn{
         display: flex;
@@ -85,7 +96,7 @@
         transition: all 300ms;
         opacity: 0;
         visibility: hidden;
-        z-index: 10px;
+        z-index: 10;
     }
 
     #toggle-label {
@@ -390,7 +401,7 @@
 
     footer .contact-page{
         width: 100%;
-      margin-top: 20px;
+        margin-top: 20px;
         padding: 10px;
        
     }
